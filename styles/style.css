@@ -1,0 +1,221 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@500&family=Work+Sans:wght@700&display=swap');
+/* header styles */
+*{
+    margin: 0;
+}
+*body{
+    font-family: 'Work Sans', sans-serif;
+}
+.title{
+    font-family: 'work sans';
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 100px; 
+}
+
+.firstsection{
+    width: 1920px;
+    height: 780px;
+    background-color:rgba(255, 144, 14, 0.1);
+    width: 100%;
+    margin-bottom: 20px;   
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+
+}
+nav ul{
+    display: flex;
+    margin-right: 100px;
+    
+    
+}
+
+.menu li{
+    list-style: none;
+    margin: 10px;
+    
+   
+   
+}
+.menu li a{
+    text-decoration: none;
+    display: flex;
+    color: black;
+    font-weight: 300;
+    font-size: 18px;
+    
+}
+.banner-part{
+    text-align: center;
+}
+.banner-text{
+    font-size: 34px;
+    font-weight: 700;
+    font-family: 'work sans';
+}
+.banner-description{
+    font-family: 'Work sans';
+    font-weight: 200;
+    font-size: 16px;
+    color: #727272;
+}
+.btn-primary{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+color: #FFFFFF;
+padding: 20px 24px;
+background: #FF900E;
+border-radius: 8px;
+border:0;
+margin-top: 13px;
+margin-bottom: 13px;
+}
+.banner-image img{
+    width: 80%;
+}
+.banner-image{
+    margin-left: 220px;
+}
+/* 3rd section start */
+.secondpage-whole-section{
+    display: flex;
+    justify-content: space-between;
+}
+.second-page-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 3px;
+    width: 342px;
+    height: 342px;
+    margin-left: 50px;
+
+}
+.second-pages-texts{
+    margin-left:400px;
+    margin-top: 280px;
+}
+.Quick-list{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 35px;
+color: #727272;
+}
+.of-Our{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    color: #131313;
+
+}
+.Features{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    color: #FF900E;
+}
+.secondpage-whole-section{
+    margin-bottom: 80px;
+}
+.features-container{
+    font-family: 'Work Sans';
+    margin-top: 300px;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.love-enjoy-title{
+font-family: 'Work Sans';
+font-weight: 100;
+font-size: 25px;
+margin-bottom: 10px;
+border-left:  5px solid #FF900E;
+
+
+}
+.small{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 40px;
+font-size: 12px;
+line-height: 26px;
+color: #727272;
+}
+.Architect img{
+width: 400px
+}
+.desktop-mobile{
+    box-shadow: 5px solid #727272;
+}
+.Drag-Drop,.desktop-mobile,.Awesome-Modern,.Super-Easy-to{
+    box-shadow: 0px 4px 30px rgba(18, 17, 17, 0.06);
+border-radius: 8px;
+}
+.image-button button{
+    position: relative;
+    top: -70px;
+    right: 19px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px 24px;
+    background: #FF900E;
+    border-radius: 8px;
+    border:0;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    
+}
+.some-fact-text{
+    font-family: 'work sans';
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 100px; 
+}
+
+.achievements{
+    display: flex;
+    justify-content: space-evenly;
+}
+.achievements-item{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.sponsor-icon-images{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    filter: grayscale(10);
+}
+.sponsor-icon-images li{
+    list-style: none;
+    
+}
+footer{
+    width: 75%;
+    background-color: antiquewhite;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+.sponsor-text{
+  text-align: center;
+}
